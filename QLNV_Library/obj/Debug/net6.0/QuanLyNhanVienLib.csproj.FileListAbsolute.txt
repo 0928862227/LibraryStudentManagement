@@ -1,0 +1,12 @@
+C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\QuanLyNhanVienLib.csproj.AssemblyReference.cache
+C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\QuanLyNhanVienLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\QuanLyNhanVienLib.AssemblyInfoInputs.cache
+C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\QuanLyNhanVienLib.AssemblyInfo.cs
+C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\QuanLyNhanVienLib.csproj.CoreCompileInputs.cache
+C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\bin\Debug\net6.0\QuanLyNhanVienLib.deps.json
+C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\bin\Debug\net6.0\QuanLyNhanVienLib.dll
+C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\bin\Debug\net6.0\QuanLyNhanVienLib.pdb
+C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\QuanLyNhanVienLib.dll
+C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\refint\QuanLyNhanVienLib.dll
+C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\QuanLyNhanVienLib.pdb
+C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\ref\QuanLyNhanVienLib.dll
