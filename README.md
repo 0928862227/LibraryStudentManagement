@@ -63,7 +63,9 @@ Có logic như sau :Thời gian làm việc = end - start.
 5. Tính Lương
   
 6. Tính Thuế
+   
 Logic :
+
 	  BHXH = luongThang * 8 / 100;
           BHYT = luongThang * 1.5 / 100;
           BHTN = luongThang * 1 / 100;
