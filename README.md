@@ -31,12 +31,14 @@ Có logic như sau :Thời gian làm việc = end - start.
          không cần nhận giá trị đầu vào !
          trả về giá trị : số tiền đã được phụ cấp
 
-  Có logic như sau : Học vị :THPT Phụ cấp 0; 
-                    trung cấp phụ cấp 2000
-                    cao đẳng phụ cấp 4000
-                    đại học phụ cấp 6000 
-                    thạc sỉ phụ cấp 8000 
-                    tiến sĩ phụ cấp 10000
+  Có logic như sau : 
+  
+  	   Học vị :	 THPT Phụ cấp 0; 
+                   	 trung cấp phụ cấp 2000
+                   	 cao đẳng phụ cấp 4000
+                   	 đại học phụ cấp 6000 
+                   	 thạc sỉ phụ cấp 8000 
+                    	 tiến sĩ phụ cấp 10000
 
             Chức danh: "Nhan vien": phụ cấp chức danh = 2000; 
                        "Pho truong phong":phụ cấp chức danh  = 5000;
@@ -49,22 +51,22 @@ Có logic như sau :Thời gian làm việc = end - start.
                                Bao ve     : phụ cấp 1000;
 
             Dòng này để trong hàm tính Lương nhé!
-            luongThang = LCB + luongThamNien + luongHocVi + luongChucDanh + luongPhongBan;  
+            luongThang = LCB + luongThamNien + luongHocVi + luongChucDanh + luongPhongBan
 
 4.  Hàm tính lương parttime của nhân viên parttime
             Nhận 1 giá trị đầu vào : loại CV 
             trả về giá trị : lương 1 giờ của nhân viên
     
-    Logic :  loaiCV là "Van phong": lương partime 19000;
-             
-                loaiCV  "San xuat":luongParttime = 20000;
+    Logic :   loaiCV là "Van phong": lương partime 19000
+              loaiCV  "San xuat":luongParttime = 20000
 
 5. Tính Lương
   
 6. Tính Thuế
-Logic :  BHXH = luongThang * 8 / 100;
-         BHYT = luongThang * 1.5 / 100;
-         BHTN = luongThang * 1 / 100;
-         TNCN = luongThang * 10 / 100;
-         thue = BHXH + BHYT + BHTN + TNCN;
+Logic :
+	  BHXH = luongThang * 8 / 100;
+          BHYT = luongThang * 1.5 / 100;
+          BHTN = luongThang * 1 / 100;
+   	  TNCN = luongThang * 10 / 100;
+          thue = BHXH + BHYT + BHTN + TNCN;
 
