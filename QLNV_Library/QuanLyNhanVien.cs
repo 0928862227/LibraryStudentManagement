@@ -3,19 +3,76 @@ namespace QuanLyNhanVienLib
 {
     public class QuanLyNhanVien
     {
-        
+
 
         // Các thuộc tính private=
-        public int maNV { get => maNV; set => maNV = value; }
-        public string tenNV { get; set; }
-        public DateTime ngaysinh { get; set; }
-        public string gioitinh { get; set; }
-        public string diachi { get; set; }
-        public DateTime ngayvaolam { get; set; }
-        public string bangcap { get; set; }
-        public string hinhthucNV { get; set; }
-        public string dieukien { get; set; }
-        public int ngayNghi { get; set; }
+        private int maNV;
+        public int MaNV
+        {
+            get => maNV;
+            set => maNV = value;
+        }
+
+        private string _tenNV="";
+        private DateTime _ngaysinh;
+
+        public string TenNV
+        {
+            get => _tenNV;
+            set => _tenNV = value;
+        }
+
+        public DateTime NgaySinh
+        {
+            get => _ngaysinh;
+            set => _ngaysinh = value;
+        }
+
+        private bool _gioitinh;
+        public bool GioiTinh
+        {
+            get => _gioitinh;
+            set => _gioitinh = value;
+        }
+
+        public string _diachi="";
+        public string DiaChi
+        {
+            get => _diachi;
+            set => _diachi = value;
+        }
+        private DateTime _ngayvaolam;
+        public DateTime NgayVaoLam
+        {
+            get => _ngayvaolam;
+            set => _ngayvaolam = value;
+        }
+         private string _bangcap="" ;
+        public string BangCap
+        {
+            get => _bangcap;
+            set => _bangcap = value;
+        }
+        private string _hinhthucNV="";
+
+        public string HinhThucNV
+        {
+            get => _hinhthucNV;
+            set => _hinhthucNV = value;
+        }
+        public string _dieukien="";
+        public string DieuKien
+        {
+            get => _dieukien;
+            set => _dieukien = value;
+        }
+
+        private int _ngayNghi;
+        public int NgayNghi
+        {
+            get => _ngayNghi;
+            set => _ngayNghi = value;
+        }
 
 
         //// Constructor mặc định
@@ -89,7 +146,7 @@ namespace QuanLyNhanVienLib
         */
         public double TinhPhep(string dieuKien, int ngayNghi)
         {
-            int thamNien = DateTime.Now.Year - ngayvaolam.Year;
+            int thamNien = DateTime.Now.Year - _ngayvaolam.Year;
             double ngayPhep = 0;
             double luongThang = TinhLuong();
 
@@ -241,7 +298,7 @@ namespace QuanLyNhanVienLib
                 default:
                     return 0;
             }
-            double soGioLam = TinhWorkingTime(ngayvaolam, DateTime.Now) - TinhPhep(dieukien, ngayNghi);
+            double soGioLam = TinhWorkingTime(_ngayvaolam, DateTime.Now) - TinhPhep(_dieukien, _ngayNghi);
             double luong = luongParttime * soGioLam;
             return luong;
         }
@@ -255,8 +312,8 @@ namespace QuanLyNhanVienLib
              luong = luongGio * gioLam + Phucap - thue;
             */
             double luongGio = 23000;
-            double soGioLam = TinhWorkingTime(ngayvaolam, DateTime.Now) - TinhPhep(dieukien, ngayNghi);
-            double luong = luongGio * soGioLam + TinhPhuCap(bangcap ,hinhthucNV) - TinhThue();
+            double soGioLam = TinhWorkingTime(_ngayvaolam, DateTime.Now) - TinhPhep(_dieukien, _ngayNghi);
+            double luong = luongGio * soGioLam + TinhPhuCap(_bangcap ,_hinhthucNV) - TinhThue();
             return luong;
         }
 
@@ -278,7 +335,52 @@ namespace QuanLyNhanVienLib
 
             return thue;
         }
+      
 
-        
+        // Hàm PrintInfor từ buổi 1
+        public void PrintInfor()
+        {
+            Console.WriteLine("Thông tin nhân viên:");
+            Console.WriteLine($"Mã nhân viên: {MaNV}");
+            Console.WriteLine($"Họ tên: {TenNV}");
+            Console.WriteLine($"Ngày sinh: {NgaySinh.Day}/{NgaySinh.Month}/{NgaySinh.Year}");
+            Console.WriteLine($"Giới tính: {(GioiTinh ? "Nam" : "Nữ")}");
+            Console.WriteLine($"Địa chỉ: {DiaChi}");
+            Console.WriteLine($"Ngày vào làm: {NgayVaoLam.Day}/{NgayVaoLam.Month}/{NgayVaoLam.Year}");
+            Console.WriteLine($"Bằng cấp: {BangCap}");
+            Console.WriteLine($"Hình thức làm việc: {HinhThucNV}");
+        }
+
+        // Hàm SetTrinhDo
+        public bool SetTrinhDo(string trinhDo)
+        {
+
+            if (trinhDo == "Đại học" || trinhDo == "Cao đẳng" || trinhDo == "12/12")
+            {
+                BangCap = trinhDo;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
+        public bool SetHinhThucNV(string hinhThucNV)
+        {
+            // Kiểm tra điều kiện và thực hiện
+            if (hinhThucNV == "Nhân viên" || hinhThucNV == "Phó trưởng phòng" || hinhThucNV == "Trưởng phòng")
+            {
+                HinhThucNV = hinhThucNV;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
     }
 }

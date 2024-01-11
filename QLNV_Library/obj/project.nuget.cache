@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JSK0GtiOEqpXuboxT8pIZZkh6ac3gNmGaji7ehDLgTBRM/vMlMrHhLn0gws/75iG5QQg5SmPhSnPmrVy2etZ/w==",
+  "dgSpecHash": "ci5ebe0lIccTl16x+l1imIPdTQo0rCbU/B1Bc+rNLrGDWhtQ7hfP5x0wgP0zILGQ8nu3poGgwHRvFnZ+Oppbag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SV\\Desktop\\New folder\\DBCLPM_.NET\\QuanLyNhanVienLib\\QuanLyNhanVienLib.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\user\\Desktop\\SelfLearning\\PersonalProject\\LibraryStudentManagement\\QLNV_Library\\QuanLyNhanVienLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }

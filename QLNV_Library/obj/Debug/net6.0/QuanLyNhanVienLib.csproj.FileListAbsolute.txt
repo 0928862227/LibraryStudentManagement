@@ -10,3 +10,15 @@ C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\Qu
 C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\refint\QuanLyNhanVienLib.dll
 C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\QuanLyNhanVienLib.pdb
 C:\Users\SV\Desktop\New folder\DBCLPM_.NET\QuanLyNhanVienLib\obj\Debug\net6.0\ref\QuanLyNhanVienLib.dll
+C:\Users\user\Desktop\SelfLearning\PersonalProject\LibraryStudentManagement\QLNV_Library\bin\Debug\net6.0\QuanLyNhanVienLib.deps.json
+C:\Users\user\Desktop\SelfLearning\PersonalProject\LibraryStudentManagement\QLNV_Library\bin\Debug\net6.0\QuanLyNhanVienLib.dll
+C:\Users\user\Desktop\SelfLearning\PersonalProject\LibraryStudentManagement\QLNV_Library\bin\Debug\net6.0\QuanLyNhanVienLib.pdb
+C:\Users\user\Desktop\SelfLearning\PersonalProject\LibraryStudentManagement\QLNV_Library\obj\Debug\net6.0\QuanLyNhanVienLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\SelfLearning\PersonalProject\LibraryStudentManagement\QLNV_Library\obj\Debug\net6.0\QuanLyNhanVienLib.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SelfLearning\PersonalProject\LibraryStudentManagement\QLNV_Library\obj\Debug\net6.0\QuanLyNhanVienLib.AssemblyInfo.cs
+C:\Users\user\Desktop\SelfLearning\PersonalProject\LibraryStudentManagement\QLNV_Library\obj\Debug\net6.0\QuanLyNhanVienLib.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SelfLearning\PersonalProject\LibraryStudentManagement\QLNV_Library\obj\Debug\net6.0\QuanLyNhanVienLib.sourcelink.json
+C:\Users\user\Desktop\SelfLearning\PersonalProject\LibraryStudentManagement\QLNV_Library\obj\Debug\net6.0\QuanLyNhanVienLib.dll
+C:\Users\user\Desktop\SelfLearning\PersonalProject\LibraryStudentManagement\QLNV_Library\obj\Debug\net6.0\refint\QuanLyNhanVienLib.dll
+C:\Users\user\Desktop\SelfLearning\PersonalProject\LibraryStudentManagement\QLNV_Library\obj\Debug\net6.0\QuanLyNhanVienLib.pdb
+C:\Users\user\Desktop\SelfLearning\PersonalProject\LibraryStudentManagement\QLNV_Library\obj\Debug\net6.0\ref\QuanLyNhanVienLib.dll
